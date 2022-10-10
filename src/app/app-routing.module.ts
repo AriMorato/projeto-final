@@ -12,8 +12,8 @@ const routes: Routes = [
     path:'', component:PrincipalComponent,
     children:[
       {path:'', component:HomeComponent}
-    ]
-  }
+    ],
+  },
 ];
 
 @NgModule({
